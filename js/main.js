@@ -1,6 +1,6 @@
 const search = document.getElementById('search');
 const matchList = document.getElementById('match-list');
-let states;
+
 
 // Get states
 const getStates = async () => {
@@ -13,7 +13,7 @@ const searchStates = searchText => {
  // Get matches to current text input
  let matches = states.filter(state => {
   const regex = new RegExp(`^${searchText}`, 'gi',);
-  return state.city.match(regex) // state.zip_code.match(regex);
+  return state.city.match(regex) //|| state.zip.match(regex);//|| state.city.broj(regex);// state.zip_code.match(regex);
  });
 
  // Clear when input or matches are empty
@@ -32,7 +32,7 @@ const outputHtml = matches => {
    .map(
     match => `<div class="card card-body mb-1">
     <h3>${match.city} 
-    <span class="text-primary">${match.zip_code}</span></h3>
+    <span class="text-primary">${match.zip}</span></h3>
    </div>`
    )
    .join('');
