@@ -1,7 +1,7 @@
 {
   "name": "y",
   "version": "1.0.0",
-  "description": "Zipcode in serbia",
+  "description": "Zipcode in Serbia",
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d dist"
@@ -10,10 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/RaulLaranga/zipcode.git"
   },
+  "keywords": [
+    "Zip"
+  ],
   "author": "Raul",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RaulLaranga/zipcode/issues"
   },
-  "homepage": "https://RaulLaranga.github.io/zipcode"
+  "homepage": "https://github.com/RaulLaranga/zipcode#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "devDependencies": {}
 }
