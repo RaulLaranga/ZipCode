@@ -1,0 +1,25 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaulLaranga/zipcode.git"
+  },
+  "keywords": [
+    "Zip"
+  ],
+  "author": "Raul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaulLaranga/zipcode/issues"
+  },
+  "homepage": "https://github.com/RaulLaranga/zipcode#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
